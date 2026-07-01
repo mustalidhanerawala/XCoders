@@ -43,7 +43,7 @@ XCoders/
 
 ---
 
-⚙️ How It Works
+## ⚙️ How It Works
 -Job Description Parsing: Extracts required skills, preferred skills, experience, and roles.
 -Candidate Processing: Converts candidate profiles into structured features.
 -Feature Engineering: Builds combined representations for scoring.
@@ -53,7 +53,7 @@ XCoders/
 
 ---
 
-🧪 Example Flow
+## 🧪 Example Flow
 </>
 -
 from src.main import run_pipeline
@@ -62,7 +62,7 @@ print(results[:10])
 
 ---
 
-📦 Installation
+## 📦 Installation
 </>
 -
 git clone https://github.com/<your-username>/XCoders.git
@@ -71,11 +71,11 @@ pip install -r requirements.txt
 
 ---
 
-▶️ Run Project
+## ▶️ Run Project
 -python src/main.py
 
 ---
 
-Important Notes
-.venv/ is ignored 
-data/ folder is partially ignored due to large dataset files. So please add data/candidates.jsonl
+## Important Notes
+-.venv/ is ignored 
+-data/ folder is partially ignored due to large dataset files. So please add data/candidates.jsonl
