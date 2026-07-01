@@ -77,5 +77,5 @@ pip install -r requirements.txt
 ---
 
 ## Important Notes
--.venv/ is ignored 
+-.venv/ is ignored
 -data/ folder is partially ignored due to large dataset files. So please add data/candidates.jsonl
