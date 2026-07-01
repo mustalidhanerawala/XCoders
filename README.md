@@ -44,22 +44,18 @@ XCoders/
 ---
 
 ⚙️ How It Works
-Job Description Parsing
-Extracts required skills, preferred skills, experience, and roles.
-Candidate Processing
-Converts candidate profiles into structured features.
-Feature Engineering
-Builds combined representations for scoring.
-Scoring Engine
-Computes ranking score using weighted logic.
-Reason Generation
-Produces human-readable explanations for rankings.
-Honeypot Detection
-Filters suspicious or low-quality profiles.
+-Job Description Parsing: Extracts required skills, preferred skills, experience, and roles.
+-Candidate Processing: Converts candidate profiles into structured features.
+-Feature Engineering: Builds combined representations for scoring.
+-Scoring Engine: Computes ranking score using weighted logic.
+-Reason Generation: Produces human-readable explanations for rankings.
+-Honeypot Detection: Filters suspicious or low-quality profiles.
 
 ---
 
 🧪 Example Flow
+</>
+-
 from src.main import run_pipeline
 results = run_pipeline()
 print(results[:10])
@@ -67,6 +63,8 @@ print(results[:10])
 ---
 
 📦 Installation
+</>
+-
 git clone https://github.com/<your-username>/XCoders.git
 cd XCoders
 pip install -r requirements.txt
@@ -74,7 +72,7 @@ pip install -r requirements.txt
 ---
 
 ▶️ Run Project
-python src/main.py
+-python src/main.py
 
 ---
 
