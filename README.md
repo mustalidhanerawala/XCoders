@@ -18,25 +18,24 @@ XCoders is an AI-powered candidate ranking system that evaluates and ranks candi
 
 ## 📁 Project Structure
 src/
-│
-├── main.py # Entry point
-├── jd_parser.py # Job description parser
-├── parser.py # Text parsing utilities
-├── feature_engine.py # Feature extraction for candidates
-├── embeddings.py # Embedding utilities
-├── scorer.py # Ranking score calculation
-├── reasoner.py # Explanation generator
-├── honeypot.py # Fraud / invalid profile detection
-├── text_utils.py # Text normalization utilities
-└── config.py # Configuration settings
+main.py # Entry point
+jd_parser.py # Job description parser
+parser.py # Text parsing utilities
+feature_engine.py # Feature extraction for candidates
+embeddings.py # Embedding utilities
+scorer.py # Ranking score calculation
+reasoner.py # Explanation generator
+honeypot.py # Fraud / invalid profile detection
+text_utils.py # Text normalization utilities
+config.py # Configuration settings
 
 data/
-├── job_description.txt # Sample JD input
-├── sample.jsonl # Sample dataset
-└── candidates.jsonl # Large candidate dataset (ignored in git)
+job_description.txt # Sample JD input
+sample.jsonl # Sample dataset
+candidates.jsonl # Large candidate dataset (ignored in git)
 
 output/
-└── top_100_candidates.csv
+top_100_candidates.csv
 
 ⚙️ How It Works
 Job Description Parsing
