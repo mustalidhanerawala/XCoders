@@ -1,6 +1,6 @@
-# XCoders – AI Candidate Ranking System
+# XRankers – AI Candidate Ranking System
 
-XCoders is an AI-powered candidate ranking system that evaluates and ranks candidates against a job description using NLP-based feature extraction, embeddings, and rule-based scoring logic. The system is designed to simulate real-world hiring intelligence by combining structured parsing, semantic matching, and heuristic scoring.
+XRankers is an AI-powered candidate ranking system that evaluates and ranks candidates against a job description using NLP-based feature extraction, embeddings, and rule-based scoring logic. The system is designed to simulate real-world hiring intelligence by combining structured parsing, semantic matching, and heuristic scoring.
 
 ---
 
